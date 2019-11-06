@@ -14,7 +14,7 @@
     .couver{
       flex: 1;
       height: 100%;
-      left: -100vw;
+      /* left: -100vw; */
       transition: 2s ease;
     }
     .info-box{
@@ -23,7 +23,7 @@
       padding: 40px 60px 28px 90px;
       position: relative;
       transition: 1.4s ease;
-      right: -40vw;
+      /* right: -40vw; */
     }
     .position-trigon{
       background-color: #fff;
@@ -86,11 +86,11 @@
 }
 @media screen and (max-width:1000px){
     .home-page main{
-    height: 100vh;
+      height: 100vh;
     }
     .couver{
     height: 40vh;
-    top: -40vh;
+    /* top: -40vh; */
     transition: 1s ease;
     }
     .left-show{
@@ -100,7 +100,7 @@
     .info-box{
     height: 60vh;
     position: relative;
-    bottom: -60vh;
+    /* bottom: -60vh; */
     transition: 1s ease;
     }
     .right-show{
@@ -152,7 +152,7 @@
 }
 
 
-ul,li,p,h1,h2{
+ul,li,p,h1,h2,body{
     margin: 0;
     padding: 0;
     list-style: none;
