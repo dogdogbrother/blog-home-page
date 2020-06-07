@@ -137,10 +137,7 @@
     display: none;
 }
 .couver{
-    background-image: url('../img/couver.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    
     position: relative;
 }
 .profile-img{
@@ -150,7 +147,30 @@
     background-image: url('../img/profile.jpg');
     background-size: cover;
 }
-
+.swiper-container{
+  width: 100%;
+  height: 100%;
+}
+.bg1,.bg2,.bg3,.bg4,.bg5{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.bg1{
+  background-image: url('../img/couver1.jpg')
+}
+.bg2{
+  background-image: url('../img/couver2.jpg')
+}
+.bg3{
+  background-image: url('../img/couver3.jpg')
+}
+.bg4{
+  background-image: url('../img/couver4.jpg')
+}
+.bg5{
+  background-image: url('../img/couver5.jpg')
+}
 
 ul,li,p,h1,h2,body{
     margin: 0;
